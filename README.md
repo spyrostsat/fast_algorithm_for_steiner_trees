@@ -1,6 +1,6 @@
-# Fast Steiner Trees Algorithm Implementation
+# Fast Algorithm for Steiner Trees
 
-This repository contains a Python implementation of the fast algorithm for Steiner trees introduced in the paper titled "A fast algorithm for Steiner trees" by Kou, L., Markowsky, G., & Berman, L. (1981) published in Acta Informatica.
+This repository contains a Python implementation of the algorithm introduced in the paper entitled "A fast algorithm for Steiner trees" by Kou, L., Markowsky, G., & Berman, L. (1981) published in Acta Informatica.
 
 ## Introduction
 
@@ -10,17 +10,26 @@ Steiner Tree Problem is a well-known problem in graph theory where the objective
 
 - Python 3.11 or above
 - NetworkX library
+- Matplotlib library
 
 ## Installation
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/steiner-tree-algorithm.git
+    git clone https://github.com/spyrostsat/fast_algorithm_for_steiner_trees.git
     ```
 
 2. Install the required dependencies:
 
     ```bash
     pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Simple execute the main.py file:
+
+    ```bash
+    python3 main.py
     ```
